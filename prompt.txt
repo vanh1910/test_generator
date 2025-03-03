@@ -1,29 +1,75 @@
-Generate a 50-question exam with HTML and CSS questions in Vietnamese with one example:
+Hãy tạo một đề thi trắc nghiệm 20 câu về HTML và CSS với định dạng sau cho mỗi câu hỏi phải chính xác như sau:
 
-1. Định dạng CSS nào sau đây được sử dụng để đặt màu nền của phần tử <p> là màu xám?
-*a) p {background-color: gray;}
-b) p {bg-color: gray;}
-c) p {color: gray;}
-d) p {background: gray;}
+[Số câu]. [Nội dung câu hỏi]
+a) [Lựa chọn a]
+*b) [Lựa chọn b]
+c) [Lựa chọn c]
+d) [Lựa chọn d]
+	
+Lưu ý dấu * là đáp án đúng
 
-Note: the answer has the star is the correct answer.
+Các câu hỏi chỉ được sử dụng các thẻ và đặc tính sau đây:
+    <a href = "" target = ""> </a>
+    <title> </title>
+    <p> </p>
+    <meta> </meta>
+    <strong> </strong>
+    <em></em>
+    <mark></mark>
+    <ol type = "" start = ""> 
+    <li>  </li>
+    <li> </li>
+    </ol>
+    <ul type = "" start = ""> 
+    <li>  </li>
+    <li> </li>
+    </ul>
+    <table>
+    <tr>
+    <td> Dữ Liệu </td>
+    </tr>
+    </table>
+    <img src = "" alt = "" width = "" height = "">
+    <audio src = "" controls> </audio>
+    <video src = "" controls> </video>
+    <iframe src = "" width = "" height = ""></iframe>
+    <form action = "" method = ""> </form>
+    <input type = "" name = "" value = "">
+    <link rel = "" href = ""> 
+    <a href = "#Topic1"></a>
+    <h2 id = "Topic1><h2>
+    color
+    font-weight
+    blackground-color
+    font-size
+    font-family
+    border-style
+    border-color
+    margin
+    padding
+    width
+    height
+    border-style
+    display
+    
+Yêu cầu của đầu ra:
+    - Giữ y nguyên định dạng cho mỗi câu hỏi như mẫu trên và các ví dụ ở dưới
+    - Giữa câu hỏi, đáp án không có cách dòng
+    - Đáp án và câu hỏi thẳng hàng không có tab hoặc space để không có lỗi trong chương trình của tôi
+    - Đầu ra không có gì khác ngoài nội dung các câu hỏi để khi tôi chuyển đầu ra của bạn sang kiểu file khác thì không có lỗi xảy ra
+    - Tất cả nội dung câu hỏi kể cả đoạn code chỉ nằm trên 1 dòng không quan bố cục
+    - Hãy làm đáp án của câu hỏi trở nên khó phân biệt và dễ gây nhầm lẫn mà chính các lập trình viên cũng mắc phải, như việc dùng các từ có nghĩa gần tương đương nhau như b/bold/strong; bg/background; font/text; src/href/link
+    - Các câu hỏi có bối cảnh sáng tạo gần gũi với học sinh cấp 3 việt nam
+	
+Sau đây là những câu hỏi ví dụ bạn có thể dựa vào để ra đề:
+7. Thuộc tính nào sau đây được sử dụng để thiết lập màu nền cho một phần tử HTML?
+*a) background-color
+b) bg-color
+c) color-background
+d) bg-clr
 
-Requirements:
-- No other text but question content should be included
-- Questions about CSS properties, HTML tags, layout
-- At least 5 questions about iframes
-- Correct answers should be randomly distributed
-- Each answer must be different.
-- Must generate text exactly from below format, not markdown or HTML:
-
-Each question's format (for example Option 2 is the correct answer):
-X. [Question]
-a) [Option 1]
-*b) [Option 2]
-c) [Option 3]
-d) [Option 4]
-
-- Add a asterisk symbol before correct answer.
-- Every code block (HTML tag, CSS code) must be put in backticks.
-- No indentation in the question format.
-- Each question must be separated by a blank line.
+8. Thuộc tính nào sau đây của thẻ <img> trong HTML xác định văn bản thay thế cho hình ảnh nếu hình ảnh không thể hiển thị khi duyệt trên web?
+a) alter
+b) text
+*c) alt
+d) error

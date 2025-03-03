@@ -10,7 +10,7 @@ MODEL = 'google/gemini-2.0-pro-exp-02-05:free'
 
 def get_prompt():
 	# Read prompt content from file prompt.txt
-	prompt_file = open('prompt.txt', 'r')
+	prompt_file = open('prompt.txt', 'r',encoding="utf-8")
 	prompt_content = prompt_file.read()
 	prompt_file.close()
 
@@ -32,7 +32,7 @@ def get_exam_content(path: str):
 	
 	# Save response from OpenRouter API to file content.txt
 	log_name = "content.txt"
-	log = open(f"{path}/{log_name}", "w+")
+	log = open(f"{path}/{log_name}", "w+",encoding="utf-8")
 
 	log.write(content)
 
