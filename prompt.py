@@ -100,6 +100,18 @@ d) <textarea type="password"></textarea>
 b) Xảy ra lỗi vì url không hợp lệ
 c) Xảy ra lỗi vì thuộc tính width và height được thiết lập không đúng cách.
 d) Không có lỗi nhưng hiển thị một khung nội tuyến rỗng.
+
+7. Thuộc tính nào sau đây được sử dụng để thiết lập màu nền cho một phần tử HTML?
+*a) background-color
+b) bg-color
+c) color-background
+d) bg-clr
+
+8. Thuộc tính nào sau đây của thẻ <img> trong HTML xác định văn bản thay thế cho hình ảnh nếu hình ảnh không thể hiển thị khi duyệt trên web?
+a) alter
+b) text
+*c) alt
+d) error
 """
 
 
