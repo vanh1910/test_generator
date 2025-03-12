@@ -1,0 +1,119 @@
+1. Để hiển thị hình ảnh Quốc huy Việt Nam (quochuy.png) với chiều rộng 100px và chiều cao tự động điều chỉnh, bạn sử dụng code HTML nào?
+a) `<img src="quochuy.png" width="auto" height="100">`
+*b) `<img src="quochuy.png" width="100">`
+c) `<img src="quochuy.png" height="100">`
+d) `<img src="quochuy.png" size="100">`
+
+2. Để tạo một danh sách các bạn nữ trong lớp 10A1, trong đó tên mỗi bạn được in đậm, bạn sẽ dùng code HTML nào?
+a) `<ul><li><b>Các bạn nữ</b></li></ul>`
+b) `<ol><li><strong>Các bạn nữ</strong></li></ol>`
+*c) `<ul><li><strong>Tên các bạn nữ</strong></li></ul>`
+d) `<ol><li><b>Tên các bạn nữ</b></li></ol>`
+
+3. Trong CSS, để thiết lập viền nét đứt màu đỏ cho tất cả các đoạn văn `<p>`, bạn sử dụng khai báo nào?
+a) `p {border: red; line: dashed;}`
+b) `p {border-style: dashed-red;}`
+*c) `p {border-style: dashed; border-color: red;}`
+d) `p {border-color: red; line-style: dashed;}`
+
+4. Để tiêu đề "Bài tập về nhà" hiển thị với chữ màu xanh dương, cỡ chữ 20px và kiểu chữ Times New Roman, bạn sẽ dùng CSS nào?
+*a) `h2 {color: blue; font-size: 20px; font-family: "Times New Roman";}`
+b) `h2 {text-color: blue; size: 20px; font: "Times New Roman";}`
+c) `h2 {color: blue; text-size: 20px; font-type: "Times New Roman";}`
+d) `h2 {text: blue; font-size: 20px; font-style: "Times New Roman";}`
+
+5. Để liên kết đến đầu trang có tiêu đề "Mục lục", bạn dùng code HTML nào?
+a) `<a link="#Mucluc">Về đầu trang</a>`
+b) `<a href="#Mucluc">Về đầu trang</a>`
+*c) `<a href="#Mucluc">Về đầu trang</a> với <h2 id="Mucluc">Mục lục</h2>`
+d) `<a src="#Mucluc">Về đầu trang</a>`
+
+6. Để tạo một bảng điểm, trong đó mỗi ô dữ liệu có độ rộng 100px, bạn sẽ sử dụng code HTML và CSS nào sau đây?
+a) `<table><tr><td width="100"></td></tr></table>`
+*b) `<style>td {width: 100px;}</style> <table><tr><td></td></tr></table>`
+c) `<table width="100"><tr><td></td></tr></table>`
+d) `<table><tr width="100"><td></td></tr></table>`
+
+7. Để tạo một form nhập liệu môn học yêu thích, với giá trị mặc định là "Toán", bạn dùng code HTML nào?
+a) `<form><input type="text" value="Toán"></form>`
+*b) `<form><input type="text" name="monhoc" value="Toán"></form>`
+c) `<form><input type="subject" value="Toán"></form>`
+d) `<form><text name="monhoc">Toán</text></form>`
+
+8. Để nhúng một video clip ca nhạc từ YouTube có ID là "abcdefgh", bạn sử dụng đoạn code HTML nào sau đây ?:
+a) `<video src="https://www.youtube.com/watch?v=abcdefgh" controls></video>`
+b) `<video link="https://www.youtube.com/watch?v=abcdefgh"></video>`
+*c) `<iframe src="https://www.youtube.com/embed/abcdefgh"></iframe>`
+d) `<iframe href="https://www.youtube.com/watch?v=abcdefgh"></iframe>`
+
+9. Để canh giữa nội dung của tất cả các đoạn văn bản `<p>` , ta sử dụng thuộc tính CSS nào, phối hợp với giá trị nào cho đúng?
+a)  `font-align: center;`
+b) `text-style: center;`
+c) `margin: auto;`
+*d) Không có thuộc tính và giá trị nào dùng được với các thẻ, thuộc tính đã cho
+
+10. Để tạo một danh sách không có thứ tự, trong đó kiểu đánh dấu đầu dòng là hình tròn đặc, bạn sử dụng thuộc tính nào trong thẻ `<ul>`?
+a) `<ul style="list-style: circle;">`
+*b) Không có thuộc tính nào dùng được trong thẻ `<ul>` đã cho
+c) `<ul type="disc">`
+d) `<ul mark="disc">`
+
+11. Đoạn code: `<p style="font-weight: bold;">Chào các bạn!</p>`. Phương án nào sau đây mô tả đúng kết quả hiển thị?
+a) Chữ "Chào các bạn!" được in nghiêng.
+*b) Chữ "Chào các bạn!" được in đậm.
+c) Chữ "Chào các bạn!" có gạch chân.
+d) Chữ "Chào các bạn!" được in thường.
+
+12. Đoạn code: `<a href="https://www.facebook.com" target="_blank">Facebook</a>`. Phương án nào mô tả đúng?
+a) Tạo liên kết đến Facebook, mở trong tab hiện tại.
+*b) Tạo liên kết đến Facebook, mở trong tab mới.
+c) Tạo liên kết đến Facebook, mở trong một cửa sổ pop-up
+d) Đoạn code bị lỗi do thiếu thuộc tính.
+
+13. Đoạn code: `<strong style= "color: green">Điểm 10</strong>`. Phương án nào sau đây mô tả đúng nhất?
+a) Chữ "Điểm 10" được in nghiêng, màu xanh lá cây.
+*b) Chữ "Điểm 10" được in đậm, màu xanh lá cây.
+c) Chữ "Điểm 10" được in thường, có màu nền xanh.
+d) Chữ "Điểm 10" được in nghiêng, có màu nền xanh
+
+14. Cho đoạn code HTML sau : `<ol start="5"> <li>  </li> </ol>`. Phương án nào sau đây mô tả đúng nhất về danh sách tạo được?
+a) Danh sách có thứ tự bắt đầu từ 1.
+*b) Danh sách có thứ tự bắt đầu từ 5.
+c) Danh sách không có thứ tự.
+d) Danh sách có thứ tự bắt đầu từ 0.
+
+15.  Đoạn code CSS: `p {padding: 10px;}`. Phương án nào mô tả đúng tác dụng của nó lên thẻ `<p>`?
+a) Thêm khoảng cách 10px giữa chữ và viền trên, dưới .
+*b) Thêm khoảng cách 10px giữa chữ và tất cả các viền.
+c) Thêm khoảng cách 10px giữa các dòng trong đoạn văn.
+d) Thêm khoảng cách 10px giữa các ký tự trong đoạn văn.
+
+16. Đoạn code: `<mark>Giờ ra chơi</mark>`. Nó có tác dụng gì?
+*a) Đánh dấu (highlight) đoạn văn bản "Giờ ra chơi".
+b) Làm cho chữ "Giờ ra chơi" nhấp nháy.
+c) Đổi màu nền của chữ "Giờ ra chơi" thành màu vàng.
+d) Không có tác dụng gì đặc biệt.
+
+17. Đoạn code CSS sau `img {border-style: solid;}` có ý nghĩa gì?
+a) Hình ảnh sẽ có viền nét liền, màu đen.
+*b) Tất cả hình ảnh sẽ có viền là nét liền.
+c) Tất cả hình ảnh sẽ có viền là nét đứt.
+d) Tất cả hình ảnh sẽ có viền có màu đã được xác định trước đó
+
+18. Đoạn code sau có lỗi không `<meta discription="Đây là trang web của tôi">` ?
+*a) Có, sai tên thuộc tính
+b) Không, code chạy bình thường
+c) Có, sai thẻ đóng
+d) Có, thuộc tính khai báo không hợp lệ
+
+19. Đoạn code CSS sau  `a {display: block;}`. Phát biểu nào sau đây là đúng
+a) Tất cả các liên kết sẽ bị ẩn.
+*b) Tất cả phần từ liên kết sẽ xuống dòng và có thể thiết lập giá trị height, width
+c) Tất cả liên kết hiển thị trên cùng 1 hàng
+d) Tất cả các liên kết sẽ chuyển về dạng inline
+
+20. Tìm lỗi sai cú pháp trong đoạn mã HTML sau: `<form action="/submit" method="post"> <input text="username"> </form>`
+*a) Thiếu thuộc tính `type` trong thẻ `input`
+b) Sai thuộc tính `action`
+c) Sai thuộc tính `method`
+d) Không có lỗi

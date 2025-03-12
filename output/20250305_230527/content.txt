@@ -1,0 +1,120 @@
+1.  Trong giờ học Tin, An muốn tạo một liên kết đến trang web của trường THPT Nguyễn Huệ, An nên sử dụng thẻ HTML nào?
+a) `<link href="https://thptnguyenhue.edu.vn">Trường THPT Nguyễn Huệ</link>`
+b) `<src href="https://thptnguyenhue.edu.vn">Trường THPT Nguyễn Huệ</src>`
+*c) `<a href="https://thptnguyenhue.edu.vn">Trường THPT Nguyễn Huệ</a>`
+d) `<meta href="https://thptnguyenhue.edu.vn">Trường THPT Nguyễn Huệ</meta>`
+
+2.  Để hiển thị danh sách các bạn đạt giải trong kỳ thi học sinh giỏi cấp tỉnh, thẻ HTML nào sau đây là phù hợp nhất?
+a) `<table>...</table>`
+b) `<p>...</p>`
+*c) `<ol>...</ol>`
+d) `<div>...</div>`
+
+3.  Trong HTML, để nhúng một video clip ca nhạc "Nàng Thơ" của Hoàng Dũng từ YouTube, bạn cần sử dụng thẻ nào?
+a) `<audio src="youtube.com/watch?v=NangTho" controls></audio>`
+b) `<img src="youtube.com/watch?v=NangTho" alt="Nàng Thơ">`
+c) `<a href="youtube.com/watch?v=NangTho">Xem video Nàng Thơ</a>`
+*d) `<iframe src="https://www.youtube.com/embed/NangTho" width="560" height="315"></iframe>`
+
+4.  Thuộc tính CSS nào sau đây được sử dụng để thiết lập độ đậm của chữ trong một đoạn văn bản?
+a) text-weight
+b) font-style
+*c) font-weight
+d) text-style
+
+5.  Để tạo một bảng điểm các môn học trong HTML, thẻ nào sau đây KHÔNG được sử dụng trực tiếp bên trong thẻ `<table>`?
+a) `<tr>`
+*b) `<p>`
+c) `<td>`
+d) Tất cả đều sai
+
+6.  Nam muốn định dạng tất cả các thẻ `<p>` trong trang web có màu xanh lá cây, bạn ấy nên sử dụng CSS như thế nào?
+a) `p {background: green;}`
+b) `p.color {green;}`
+*c) `p {color: green;}`
+d) `<p style="color-background: green;">`
+
+7.  Trong một bài thuyết trình về các loại hình nghệ thuật, để làm nổi bật tên các họa sĩ nổi tiếng, bạn nên sử dụng thẻ HTML nào?
+a) `<em>`
+b) `<mark>`
+*c) `<strong>`
+d) `<p>`
+
+8.  Thuộc tính nào sau đây dùng thiết lập khoảng cách từ nội dung đến đường viền bên trong phần tử HTML?
+*a) padding
+b) margin
+c) border
+d) space
+
+9.  Trong CSS, thuộc tính nào quy định kiểu đường viền của phần tử?
+a) border-color
+b) line-style
+*c) border-style
+d) border-width
+
+10. Bạn A muốn phần tử của mình có phông chữ Times New Roman, nếu không có thì dùng Arial, còn không sẽ dùng phông mặc định, bạn A nên dùng thuộc tính CSS nào?
+a) `font-type: “Times New Roman”, Arial;`
+b) `font: “Times New Roman”, Arial;`
+c) `font-family: “Times New Roman”, “Arial”;`
+*d) `font-family: “Times New Roman”, Arial, sans-serif;`
+
+11. Cho đoạn mã HTML: `<a href = "#Diem10" >Điểm 10 môn toán</a><h2 id = "Diem10"></h2>`. Chức năng của đoạn mã này là gì?
+a) Tạo một đường link đến trang web có tên "Diem10"
+b) Tạo một tiêu đề trong trang web
+*c) Tạo một liên kết trong trang, khi bấm vào sẽ di chuyển đến phần tử có id="Diem10"
+d) Đặt tên cho trang web là "Diem10"
+
+12. Đoạn code: `<ul type = "1" start = "5"> <li>Lý</li> <li>Hoá<li> </ul>`. HTML trên có lỗi gì không?
+a) Không có lỗi
+*b) Có lỗi, thẻ <li>Hoá<li> không được đóng đúng
+c) Có lỗi, danh sách phải bắt đầu từ 1
+d) Có lỗi vì không xác định kiểu danh sách
+
+13. Xét đoạn mã HTML sau: `<img src="anhdep.jpg" alt="Ảnh đẹp" width="200px">`. Câu nào sau đây mô tả chính xác nhất?
+*a) Hiển thị ảnh "anhdep.jpg", nếu lỗi thì hiện chữ "Ảnh đẹp", chiều rộng 200px, chiều cao tự động
+b) Hiển thị ảnh "anhdep.jpg", nếu lỗi thì hiện chữ "Ảnh đẹp", chiều cao 200px, chiều rộng tự động
+c) Hiển thị ảnh "anhdep.jpg", nếu lỗi thì hiện chữ "Ảnh đẹp", kích thước ảnh giữ nguyên
+d) Hiển thị ảnh, "Ảnh đẹp", chiều rộng và cao bằng nhau, 200px.
+
+14. Đoạn CSS sau: `strong { font-weight: normal; }` có tác dụng gì?
+a) Làm cho chữ trong thẻ strong có màu đen
+*b) Làm cho chữ trong thẻ strong không được in đậm
+c) Làm cho chữ trong thẻ strong được in nghiêng
+d) Làm cho chữ trong thẻ strong bị gạch chân
+
+15. Đoạn mã HTML: `<ol type="I" start="3"> <li>Cam</li> <li>Quýt</li> </ol>`. Kết quả hiển thị là gì?
+*a) III. Cam IV. Quýt
+b) 3. Cam 4. Quýt
+c) A. Cam B. Quýt
+d) 1. Cam 2. Quýt
+
+16. Trong đoạn mã sau, đâu là lỗi: `<style> p { background-color = red; font-size:15px;  }</style>`.
+a) background-color phải là color
+*b) Không có lỗi
+c) font-size phải có dấu nháy kép
+d) Không có thẻ đóng </p> tương ứng.
+
+17. Cho đoạn mã CSS: `h2 { color: blue; font-size: 20px; padding: 10px;}`. `padding:10px` nghĩa là gì?
+a) Khoảng cách từ lề trên xuống 10px.
+b) Khoảng cách từ lề trái qua 10px
+c) Chữ cách lề trên và dưới 10px
+*d) Khoảng cách từ nội dung đến viền của phần tử là 10px về mọi phía.
+
+18. `<meta charset="UTF-8">` thường được đặt ở đâu và có ý nghĩa gì?
+a) Đặt trong thẻ `<body>`, quy định bảng mã cho trang web.
+*b) Đặt trong thẻ `<head>`, quy định bảng mã cho trang web.
+c) Đặt trong thẻ `<title>`, quy định bảng mã cho trang web.
+d) Đặt trong thẻ `<style>`, quy định bảng mã cho trang web.
+
+19. Đoạn code `<form action="/submit_form" method="post"> <input type="text" name="username"> </form>`. Phương thức nào sau đây mô tả đúng?
+a) Gửi dữ liệu đến trang "/submit_form", phương thức GET, có một ô input tên username.
+*b) Gửi dữ liệu đến trang "/submit_form", phương thức POST, có một ô input tên username.
+c) Gửi dữ liệu đến trang "/submit_form", phương thức GET, có một nút submit.
+d)  Tạo một biểu mẫu, tên form là username.
+
+20. Đoạn code sau: `<link rel="stylesheet" href="style.css">`. Có lỗi gì không?
+a) Có, link không có type
+*b) Không
+c) Sai đường dẫn
+d) rel phải là style
+

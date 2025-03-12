@@ -1,0 +1,116 @@
+1.  Trong HTML, thẻ nào dùng để nhúng một bài hát có tên "MuaHaNoi.mp3" vào trang web và hiển thị bộ điều khiển?
+a) `<audio "MuaHaNoi.mp3" controls> </audio>`
+*b) `<audio src="MuaHaNoi.mp3" controls> </audio>`
+c) `<audio href="MuaHaNoi.mp3" controls> </audio>`
+d) `<audio link="MuaHaNoi.mp3" controls> </audio>`
+
+2.  Để liên kết một file CSS có tên "style.css" vào trang HTML, thẻ nào sau đây được sử dụng đúng cách trong phần `<head>`?
+a) `<a href="style.css" rel="stylesheet">`
+b) `<style src="style.css">`
+c) `<meta href="style.css" rel="stylesheet">`
+*d) `<link rel="stylesheet" href="style.css">`
+
+3.  Trong CSS, thuộc tính nào sau đây dùng để thay đổi kiểu đường viền của một phần tử HTML, ví dụ như đường kẻ liền, đường nét đứt?
+a) border-color
+*b) border-style
+c) line-style
+d) border-type
+
+4.  Để tạo một danh sách không có thứ tự, sử dụng dấu đầu dòng là hình vuông trong HTML, thẻ nào sau đây được sử dụng đúng?
+a) `<ul start="square"> <li>...</li> </ul>`
+*b) `<ul type="square"> <li>...</li> </ul>`
+c) `<ol type="square"> <li>...</li> </ol>`
+d) `<list type="square"> <li>...</li> </list>`
+
+5.  Trong HTML, để làm nổi bật một đoạn văn bản, ví dụ như khi trích dẫn lời của một bài hát, thẻ nào sau đây thường được sử dụng?
+a) `<strong>`
+b) `<b>`
+*c) `<em>`
+d) `<i>`
+
+6.  Trong CSS, làm thế nào để thiết lập lề trên (top margin) của một phần tử `<p>` là 20 pixel?
+a) `p { top-margin: 20px; }`
+b) `p { margin-top: 20; }`
+*c) `p { margin-top: 20px; }`
+d) `p { top: 20px; }`
+
+7.  Thẻ HTML nào sau đây được sử dụng để tạo một siêu liên kết đến phần tử có id là "chuong1" trong cùng một trang?
+a) `<a link="#chuong1">Chương 1</a>`
+*b) `<a href="#chuong1">Chương 1</a>`
+c) `<a src="#chuong1">Chương 1</a>`
+d) `<a id="#chuong1">Chương 1</a>`
+8.  Thuộc tính CSS được sử dụng thay đổi độ đậm của chữ được trình bày trên trang web?
+a) text-weight
+*b) font-weight
+c) font-bold
+d) text-bold
+
+9.  Để thiết lập chiều rộng của một phần tử HTML là 50% so với phần tử cha của nó, thuộc tính CSS nào sau đây được sử dụng?
+a) `height: 50%;`
+*b) `width: 50%;`
+c) `size: 50%;`
+d) `scale: 50%;`
+
+10. Trong một biểu mẫu HTML, thuộc tính nào của thẻ `<input>` được sử dụng để xác định loại dữ liệu nhập vào, ví dụ như "text", "number", "email"?
+a) `name`
+b) `value`
+*c) `type`
+d) `kind`
+
+11. Cho đoạn code: `<p style="color: blue; font-size: 18px;">Chào mừng!</p>`. Đoạn code trên có ý nghĩa gì?
+a) Tạo một đoạn văn bản màu xanh, chữ thường.
+b) Tạo một đoạn văn bản màu xanh, chữ in đậm.
+*c) Tạo một đoạn văn bản màu xanh, cỡ chữ 18px.
+d) Tạo một đoạn văn bản màu xanh, cỡ chữ mặc định.
+
+12. Đoạn mã HTML sau đây có lỗi gì không? `<img src="anh.jpg" alt="Ảnh phong cảnh" width="100" height="auto">`
+a) Có lỗi, sai thuộc tính `width`.
+b) Có lỗi, sai thuộc tính `height`.
+c) Có lỗi, sai thuộc tính `alt`.
+*d) Không có lỗi.
+
+13. Đoạn mã HTML sau: `<a href="https://www.facebook.com" target="_blank">Facebook</a>`, nút "Facebook" có tác dụng gì?
+a) Mở trang Facebook trong cùng tab hiện tại.
+*b) Mở trang Facebook trong một tab mới.
+c) Mở trang Facebook trong một cửa sổ mới.
+d) Không thực hiện hành động nào.
+
+14. Xét đoạn mã HTML sau: `<ol type="I" start="3"> <li>...</li> </ol>`. Kết quả của đoạn mã này là gì?
+*a) Danh sách đánh số bằng chữ số La Mã, bắt đầu từ III.
+b) Danh sách đánh số bằng chữ cái, bắt đầu từ C.
+c) Danh sách đánh số bằng chữ số Ả Rập, bắt đầu từ 3.
+d) Danh sách không có thứ tự, bắt đầu từ 3.
+
+15. Đoạn mã CSS sau: `strong { font-weight: bold; }` có tác dụng gì?
+a) Làm cho tất cả văn bản đều in đậm.
+*b) Làm cho văn bản trong thẻ `<strong>` in đậm.
+c) Làm cho văn bản trong thẻ `<b>` in đậm.
+d) Không có tác dụng.
+
+16. Mã HTML sau có lỗi không `<table > <tr> <td> 1 </td> </tr> <tr > <td > 2 </td> </tr > </table>`.
+a) Có lỗi, thiếu thẻ `</table>`.
+*b) Không có lỗi.
+c) Có lỗi, thừa thẻ `<tr>`.
+d) Có lỗi, thừa thẻ `<td>`.
+17. Đoạn CSS nào sau đây sẽ ẩn tất cả phần tử `<p>` trên trang web?
+a) `p {visibility: none;}`
+b) `p {display: hide;}`
+*c) `p {display: none;}`
+d) `p {visibility: hidden;}`
+
+18. Đoạn mã HTML sau đây có lỗi ở đâu: `<form action="/submit" method="POST"> <input type="text" name="username"> </form>`
+a) Lỗi ở thuộc tính `action`.
+b) Lỗi ở thuộc tính `method`.
+c) Lỗi ở thẻ `<input>`.
+*d) Không có lỗi.
+
+19. Đoạn mã sau, thuộc tính background-color của thẻ `<mark>` có màu gì? `<mark style = “background-color: #FFFF00; color: #0000FF”> Chữ trong thẻ mark </mark>`
+a) Màu xanh lam.
+b) Màu đỏ.
+*c) Màu vàng.
+d) Màu đen.
+20. Đoạn mã sau đây: `<h2 id = "Phan1"> Phần 1 </h2> <a href = "#Phan1">Click vào đây</a>`. Khi click vào "Click vào đây", điều gì sẽ xảy ra.
+a) Không có gì xảy ra.
+*b) Trang web cuộn xuống/lên tới vị trí có `<h2>` chứa nội dung "Phần 1".
+c) Chuyển sang trang khác.
+d) Mở một tab mới.

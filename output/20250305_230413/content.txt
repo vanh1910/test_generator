@@ -1,0 +1,119 @@
+1.  Trong HTML, thẻ nào dùng để nhúng một bài hát của Sơn Tùng M-TP vào trang web của trường?
+a) `<video src="mtp.mp3" controls></video>`
+*b) `<audio src="mtp.mp3" controls></audio>`
+c) `<media src="mtp.mp3" controls></media>`
+d) `<sound src="mtp.mp3" controls></sound>`
+
+2.  Để liên kết đến một file CSS bên ngoài có tên "style.css" đặt cùng thư mục với file html, thẻ nào sau đây được sử dụng?
+a) `<a href=”style.css”> </a>`
+b) `<style src="style.css"></style>`
+*c) `<link rel="stylesheet" href="style.css">`
+d) `<script src="style.css"></script>`
+
+3.  Thẻ HTML nào sau đây tạo ra một danh sách không có thứ tự, sử dụng dấu chấm tròn làm ký hiệu đầu dòng?
+a) `<ol type="disc"> <li>...</li> </ol>`
+b) `<ul type="1"> <li>...</li> </ul>`
+c) `<ol type="circle"> <li>...</li> </ol>`
+*d) `<ul type="disc"> <li>...</li> </ul>`
+
+4.  Đoạn mã HTML sau đây: `<a href="#diem-10">Điểm 10</a> ... <h2 id="diem-10">...</h2>` có chức năng gì?
+a) Tạo một siêu liên kết đến trang web có tên "diem-10"
+*b) Tạo một liên kết nội bộ, khi click vào sẽ di chuyển đến phần tử có id "diem-10"
+c) Tạo một tiêu đề có tên "diem-10"
+d) Tạo một class có id là "diem-10"
+
+5.  Để hiển thị chữ "Tuyệt vời!" với màu đỏ và in đậm trong HTML, phương án nào sau đây đúng?,
+*a) `<strong style="color: red;">Tuyệt vời!</strong>`
+b) `<em style="color: red; font-weight:bold">Tuyệt vời!</em>`
+c) `<p style = "color:red, font-weight:strong">Tuyệt vời!</p>`
+d) `<mark style="color: red; font-style: strong;">Tuyệt vời!</mark>`
+
+6.  Để tạo một bảng điểm HTML đơn giản, thẻ nào được sử dụng để định nghĩa một ô dữ liệu trong bảng?
+a) `<tr>`
+*b) `<td>`
+c) `<table>`
+d) `<tb>`
+
+7.  Thuộc tính CSS nào dùng để thay đổi kích thước phông chữ của một đoạn văn bản HTML?
+a) `font-style`
+b) `text-size`
+*c) `font-size`
+d) `font-family`
+
+8.  Thuộc tính CSS nào sau đây dùng để thiết lập độ rộng đường viền cho một phần tử HTML?
+a) `border-color`
+*b) `border-style`
+c)  `border-width`
+d) `border`
+
+9.  Thuộc tính nào sau đây được sử dụng để ẩn một phần tử HTML, khiến nó không hiển thị trên trang web?
+a) `visibility: hidden;`
+*b) `display: none;`
+c) `opacity: 0;`
+d) `display: hidden;`
+
+10. Trong CSS, giá trị nào của thuộc tính `display` làm cho phần tử hiển thị như một phần tử khối (block-level element)?
+a) `inline`
+b) `inline-block`
+*c) `block`
+d) `table`
+
+11. Đoạn code: `<img src="anh.jpg" alt="Ảnh đẹp" width="200px", height="100px">`, phương án nào đúng?
+*a) Hiển thị ảnh "anh.jpg", với alt text, rộng 200px, cao 100px.
+b) Hiển thị alt text, ảnh rộng 100px và cao 200px.
+c) Hiển thị ảnh "anh.jpg" rộng 100px và cao 200px.
+d) Không hiển thị ảnh "anh.jpg" và chỉ hiện thị alt text
+
+12. Cho đoạn mã: `<p style="color: blue; font-weight: bold;">Xin chào</p>`. Phương án nào chính xác?
+*a) Chữ "Xin chào" màu xanh, in đậm.
+b) Chữ "Xin chào" màu xanh, in nghiêng.
+c) Chữ "Xin chào" màu đen, in đậm.
+d) Chữ "Xin chào" in thường, màu xanh.
+
+13. Đoạn mã HTML sau: `<ol start="5"><li>Cam</li><li>Xoài</li></ol>`. Phương án nào mô tả đúng?
+a) Danh sách không có thứ tự, bắt đầu từ số 5.
+b) Danh sách có thứ tự, bắt đầu từ "Cam".
+c) Danh sách có thứ tự, sử dụng chữ cái.
+*d) Danh sách có thứ tự, bắt đầu từ số 5.
+
+14. `<form action="xuly.php" method="post"> <input type="text" name="ten"> </form>`. Phương án nào sai?
+*a) Dữ liệu được gửi bằng phương thức GET.
+b) Dữ liệu được xử lý bởi "xuly.php".
+c) Có một ô nhập liệu tên "ten".
+d) Phương thức gửi dữ liệu là POST
+
+15. Đoạn mã CSS: `p { margin: 10px; padding: 5px; }` có ý nghĩa gì?
+*a) Tất cả phần tử `<p>` có lề 10px, đệm trong 5px.
+b) Tất cả phần tử `<p>` có lề 5px, đệm trong 10px.
+c) Chỉ phần tử `<p>` đầu tiên có lề 10px, đệm trong 5px.
+d) Phần tử có id là "p" có lề và đệm
+
+16. Trong đoạn mã CSS sau: `h2 { border-style: solid; }`, phương án nào mô tả đúng?
+a) Đường viền của thẻ `<h2>` có dạng nét đứt.
+b) Đường viền của thẻ `<h2>` có dạng nét đôi.
+*c) Đường viền của thẻ `<h2>` có dạng liền.
+d) Đường viền của thẻ `<h2>` có dạng chấm.
+
+17. Cho đoạn code CSS: `.tenhocsinh {font-family: Arial;}`. Phương án nào là Đúng?
+*a) Phần tử có class là "tenhocsinh" sẽ có font chữ Arial.
+b) Phần tử có id là "tenhocsinh" sẽ có font chữ Arial.
+c) Phần tử có class là "tenhocsinh" sẽ có font chữ Times New Roman
+d) Phần tử p sẽ có font Arial
+
+18. Đoạn mã: `<a href="https://www.facebook.com" target="_blank">Facebook</a>`, lỗi sai ở đâu?
+a) Thiếu thuộc tính "rel"
+b) Sai địa chỉ URL
+c) Target sai
+*d) Không có lỗi
+
+19. `<meta charset = "ABC">`. Mã này có ý nghĩa gì?
+a) Khai báo sử dụng bảng mã ASCII cho trang web.
+*b) Khai báo sai bảng mã ký tự cho trang web, gây lỗi hiển thị.
+c) Khai báo tác giả của trang web.
+d) Khai báo kích thước của trang
+
+20. Cho đoạn CSS `div { width: 50%; height: 200px; }`. Phương án nào đúng?
+a) Phần tử `<div>` rộng 200px, cao 50% màn hình.
+*b) Phần tử `<div>` rộng 50% phần tử cha, cao 200px.
+c) Phần tử `<div>` rộng và cao 50% phần tử cha.
+d) `<div>` có height và width bằng nhau.

@@ -1,0 +1,119 @@
+1.  Trong giờ học Tin, bạn An muốn tạo một liên kết đến trang web của trường THPT Nguyễn Trãi, dòng code nào sau đây là đúng?
+a)  `<a link="https://thptnguyentrai.edu.vn">Trường THPT Nguyễn Trãi</a>`
+*b) `<a href="https://thptnguyentrai.edu.vn">Trường THPT Nguyễn Trãi</a>`
+c)  `<a src="https://thptnguyentrai.edu.vn">Trường THPT Nguyễn Trãi</a>`
+d)  `<a url="https://thptnguyentrai.edu.vn">Trường THPT Nguyễn Trãi</a>`
+
+2.  Để làm nổi bật tên các bạn đạt giải trong cuộc thi học sinh giỏi, thẻ HTML nào sau đây là phù hợp nhất?
+a)  `<em>`
+*b) `<mark>`
+c)  `<strong>`
+d)  `<p>`
+
+3.  Bạn Hoa muốn tạo một danh sách không có thứ tự các môn học yêu thích, cặp thẻ HTML nào sau đây là đúng?
+a) `<ol> <li> Toán </li> <li> Văn </li> </ol>`
+b) `<dl> <li> Toán </li> <li> Văn </li> </dl>`
+*c) `<ul> <li> Toán </li> <li> Văn </li> </ul>`
+d) `<tl> <li> Toán </li> <li> Văn </li> </tl>`
+
+4.  Trong HTML, thẻ nào sau đây quy định tiêu đề của trang web, thường hiển thị trên thanh tiêu đề của trình duyệt?
+a)  `<head>`
+*b) `<title>`
+c)  `<h1>`
+d)  `<header>`
+
+5.  Bạn Minh muốn chèn ảnh đại diện của mình vào trang web cá nhân, thuộc tính nào của thẻ `<img>` xác định đường dẫn đến tệp ảnh?
+a)  `link`
+b)  `href`
+*c) `src`
+d)  `url`
+
+6. Lệnh `<strong style= "font-weight: bold"> </strong>` tác động đến chữ được đặt bên trong như thế nào?
+a) Chữ thường
+*b) Chữ in đậm
+c) Chữ in nghiêng
+d) Chữ có gạch chân
+
+7. Để căn giữa một đoạn văn bản `<p>`, thuộc tính CSS nào sau đây có thể được sử dụng bên trong một thẻ style, hoặc một file css được liên kiết?
+a)  `text-align: center;`
+*b) `margin: auto; display: block;`
+c)  `padding: auto;`
+d)  `align: center;`
+
+8.  Để thay đổi kích thước font chữ của một phần tử HTML, thuộc tính CSS nào sau đây được sử dụng?
+*a) `font-size`
+b)  `text-size`
+c)  `font-weight`
+d)  `font-style`
+
+9.  Bạn Nam muốn tạo một form đăng ký tham gia câu lạc bộ Tin học, phương thức nào (method) của thẻ `<form>` là phù hợp để gửi dữ liệu an toàn?
+a)  `get`
+*b) `post`
+c)  `send`
+d)  `submit`
+
+10. Trong CSS, thuộc tính nào sau đây dùng để thiết lập kiểu đường viền cho một phần tử?
+a)  `border-color`
+b)  `border-width`
+*c) `border-style`
+d)  `outline-style`
+
+11. Đoạn code HTML sau: `<a href="#section1">Đi tới phần 1</a> ... <h2 id="section1">Phần 1</h2>`, đoạn code có công dụng gì?
+a) Tạo một liên kết đến trang web có tên section1
+b)  Tạo một tiêu đề có id là section1
+*c) Tạo một liên kết nội bộ trong trang, di chuyển đến phần có id là "section1"
+d) Tạo một bookmark có tên section1
+
+12. `<table><tr><td>A</td><td>B</td></tr></table>` hiển thị như thế nào?
+*a) Một bảng có một hàng, hai cột, giá trị lần lượt là A và B.
+b) Một bảng có hai hàng, một cột.
+c) Một bảng có một hàng, một cột.
+d) Đoạn code trên bị lỗi.
+
+13. Cho đoạn mã CSS sau: `p { font-family: "Arial", sans-serif; }`. Đoạn mã trên làm thay đổi điều gì?
+a)  Độ đậm của chữ trong thẻ `<p>`
+b)  Kích thước của chữ trong thẻ `<p>`
+c)  Màu sắc của chữ trong thẻ `<p>`
+*d) Font chữ của chữ trong thẻ `<p>`
+
+14. Đoạn mã HTML sau: `<ol type="I" start="5"> <li>...</li> </ol>`. Danh sách sẽ bắt đầu từ số La Mã nào?
+a) I
+b)  II
+c)  IV
+*d) V
+
+15. Đoạn mã CSS: `img {display: none;}` có tác dụng gì?
+a)  Làm cho hình ảnh trong suốt
+*b) Ẩn hình ảnh
+c)  Hiển thị hình ảnh dưới dạng block
+d)  Xóa hình ảnh khỏi trang web
+
+16. Đoạn mã HTML sau: `<audio controls> <source src="nhac.mp3" type="audio/mpeg"> </audio>`. Phát biểu nào đúng:
+*a) Trình duyệt sẽ hiển thị một trình phát nhạc và phát tệp nhac.mp3 nếu hỗ trợ.
+b) Đoạn code bị lỗi
+c)  Tệp nhac.mp3 sẽ tự động được tải về máy.
+d)  Nó hiển thị nút download file nhac.mp3
+
+17. Xét đoạn CSS sau: `h2 { color: blue; font-weight: normal; }`. Phát biểu nào sau đây là đúng?
+a)  Tất cả các thẻ tiêu đề `h2` sẽ có chữ màu xanh và in đậm.
+*b) Tất cả các thẻ tiêu đề `h2` sẽ có chữ màu xanh và chữ thường.
+c)  Tất cả các chữ trong trang web sẽ có màu xanh và in đậm.
+d)  Tất cả các link có màu xanh.
+
+18. Đoạn mã HTML sau: `<input type="text" value="Nhập tên">`. Phát biểu nào sau đây là *sai*?
+a)  Tạo ra một ô input cho phép người dùng nhập văn bản.
+b)  Ô input sẽ có giá trị mặc định là "Nhập tên".
+*c) Đây là một input dùng để nhập password.
+d) Input có kiểu là "text".
+
+19. Cho đoạn CSS: `.example { border-style: dotted; border-color: red; }`. Phát biểu nào đúng về class "example"?
+a) Phần tử có class "example" có đường viền liền màu đỏ.
+b)  Phần tử có class "example" có đường viền nét đứt màu đỏ.
+*c) Phần tử có class "example" có đường viền chấm chấm màu đỏ.
+d)  Phần tử có class "example" có đường viền đôi màu đỏ.
+
+20. Đoạn code `<link rel="stylesheet" href="style.css">` làm gì?
+*a) Liên kết một tệp CSS bên ngoài có tên "style.css" vào trang HTML.
+b) Định nghĩa style nội tuyến.
+c) Tạo một liên kết đến trang web khác
+d) Định nghĩa một class có tên là stylesheet.

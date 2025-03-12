@@ -65,10 +65,10 @@ Yêu cầu của đầu ra:
 	
 Sau đây là những câu hỏi ví dụ bạn có thể dựa vào để ra đề:
 1. Đoạn mã HTML nào sau đây tạo liên kết đến Cổng thông tin điện tử của Chính phủ có địa chỉ: https://www.chinhphu.vn
-*a) <a href=”https://www.chinhphu.vn”>Chính phủ</a> 
-b) <a name=”https://www.chinhphu.vn”>Chính phủ</a> 
-c) <a url=”https://www.chinhphu.vn”>Chính phủ</a> 
-d) <a ”https://www.chinhphu.vn”>Chính phủ</a> 
+*a) `<a href=”https://www.chinhphu.vn”>Chính phủ</a>`
+b) `<a name=”https://www.chinhphu.vn”>Chính phủ</a>` 
+c) `<a url=”https://www.chinhphu.vn”>Chính phủ</a>` 
+d) `<a ”https://www.chinhphu.vn”>Chính phủ</a>` 
 
 2. Xét dòng lệnh sau trong một đoạn mã HTML để tạo bảng: <tr> <td> Họ tên </td> <td> Tuổi </td> </tr>. Phương án nào sau đây nêu đúng ý nghĩa của dòng lệnh trên?
 a) Tạo 1 hàng có 2 cột trong bảng.
@@ -83,16 +83,16 @@ c) Chỉ các phần tử có định danh (id) là “mark”.
 d) Chỉ các phần tử có tên là “mark”. 
 
 4. Phương án nào sau đây chỉ ra đúng cặp thẻ HTML để hiển thị một danh sách học sinh trong lớp được đánh số thứ tự từ 10? 
-a) <ul type="10">...</ul>
-b) <ol type="10">...</ol>
-*c) <ol start="10">...</ol>
-d) <ul start="10">...</ul>
+a) `<ul type="10">...</ul>`
+b) `<ol type="10">...</ol>`
+*c) `<ol start="10">...</ol>`
+d) `<ul start="10">...</ul>`
 
 5. Đoạn mã HTML nào sau đây phù hợp để tạo một phần tử cho phép nhập mật khẩu trong một biểu mẫu đăng nhập?
-a) <input type="text" name="password"> 
-*b) <input type="password" name="password"> 
-c) <textarea name="password"></textarea> 
-d) <textarea type="password"></textarea>
+a) `<input type="text" name="password">` 
+*b) `<input type="password" name="password">` 
+c) `<textarea name="password"></textarea>` 
+d) `<textarea type="password"></textarea>`
 
 6. Đoạn mã HTML sau nhằm tạo ra một khung nội tuyến (iframe) để nhúng video có id là VIDEO_ID vào trang web. Phương án nào sau đây nếu đúng kết quả thực hiện đoạn mã <iframe src="https://www.youtube.com/watch?v=Video_ID width="640" height="360"></iframe>
 *a) Không có lỗi xảy ra, video từ Youtube sẽ được hiển thị.
