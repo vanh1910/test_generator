@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Hãy tạo một đề thi trắc nghiệm 20 câu về HTML và CSS với định dạng sau cho mỗi câu hỏi phải chính xác như sau:
+=======
+Generate a 30-question exam with HTML and CSS questions in Vietnamese with one example:
+>>>>>>> a0c640795a5ca65770de0dd0d71b1b87e13808ef
 
 [Số câu]. [Nội dung câu hỏi]
 a) [Lựa chọn a]
@@ -70,11 +74,20 @@ b) <a name=”https://www.chinhphu.vn”>Chính phủ</a>
 c) <a url=”https://www.chinhphu.vn”>Chính phủ</a> 
 d) <a ”https://www.chinhphu.vn”>Chính phủ</a> 
 
+<<<<<<< HEAD
 2. Xét dòng lệnh sau trong một đoạn mã HTML để tạo bảng: <tr> <td> Họ tên </td> <td> Tuổi </td> </tr>. Phương án nào sau đây nêu đúng ý nghĩa của dòng lệnh trên?
 a) Tạo 1 hàng có 2 cột trong bảng.
 *b) Tạo 2 hàng, mỗi hàng có 1 cột.
 c) Tạo 1 cột có 2 hàng trong bảng.
 d) Tạo tiêu đề cho 2 cột của bảng.
+=======
+Requirements:
+- No other text but question content should be included
+- Questions about CSS properties, HTML tags, layout
+- Correct answers should be randomly distributed
+- Each answer (option) must be different from each other.
+- Must generate text exactly from below format, not markdown or HTML:
+>>>>>>> a0c640795a5ca65770de0dd0d71b1b87e13808ef
 
 3. Cho bộ chọn được khai báo trong thẻ <style> thuộc phần <head> của một trang web như sau: .mark{color: red; font-weight: bold; font-size: 13px;}. Phương án nào sau đây nếu đúng phạm vi áp dụng của bộ chọn trên đối với các phần tử trong trang web?  
 a) Tất cả các phần tử trong trang web.

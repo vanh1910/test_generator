@@ -1,4 +1,4 @@
-import os
+from handler.const import DOCX_FILE
 from docx import Document
 from docx.shared import Pt, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -114,7 +114,6 @@ def create_exam_document(path: str, exam_content: str):
 	total_number_questions = 0
 	question_section: paragraph.Paragraph = None
 	for line in lines:
-		line = line.strip()
 		if line == '': 
 			question_section = None
 			continue
@@ -136,6 +135,8 @@ def create_exam_document(path: str, exam_content: str):
 				order_answer_section.underline = True
 				order_answer_section.bold = True
 				question_section.add_run(content_answer)
+			else: 
+				question_section.add_run(f'\n{line}')
 		else:
 			index_separator = line.find('.')
 			if index_separator == -1:
@@ -162,6 +163,5 @@ def create_exam_document(path: str, exam_content: str):
 	footer.add_run('- Cán bộ coi thi không giải thích gì thêm.').italic = True
 	
 	# Save to file docx
-	filename = "de_thi.docx"
-	doc.save(f"{path}/{filename}")
-	print(f"Đã tạo đề thi thành công và lưu với tên: {path}/{filename}")
+	doc.save(f"{path}/{DOCX_FILE}")
+	print(f"Đã tạo file docx thành công: {path}/{DOCX_FILE}")
